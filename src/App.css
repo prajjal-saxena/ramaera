@@ -1,0 +1,259 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.navbar a img{
+  width: 66%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body{
+  background: #040404;
+}
+h2{
+  background: -webkit-linear-gradient(#F58604, #EBD832);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.expansion{
+position: absolute;
+    top: 9px;
+    color: #fff!important;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 65vh;
+}
+.expansion-content{
+  position: relative;
+  top: 0px;
+ }
+ .expansion-content img{
+       height: 70vh;
+   }
+
+
+   button.read-more {
+    border: 1px solid #a613c6;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: transparent;
+    color: #f1f1f1;
+  }
+  i.fa.fa-circle-thin {
+    position: relative;
+    left: 18px;
+    color: #f1f1f1;
+  }
+
+  .technology1{
+     background: #040404;
+  }
+
+  .marginBotto{
+     margin-bottom: 50px;
+  }
+  .navbar{
+    background-color: transparent!important;
+    position: relative;
+    z-index: 99;
+  }
+  .cover-photo {
+    position: relative;
+    bottom: 56px;
+}
+.navbar-nav a {
+  color: #f1f1f1;
+}
+.navbar-nav a:hover{
+  color: greenyellow!important;
+}
+.dropdown-item{
+  color: #000!important;
+}
+.navbar-nav {
+  border: 1px solid #fff;
+  padding: 16px;
+  border-radius: 16px;
+}
+.exp-btn{
+  background: linear-gradient(#F58604, #EBD832);
+}
+.up-down{
+  animation: up-down linear 4s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: up-down linear 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: up-down linear 4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: up-down linear 4s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: up-down linear 4s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+  margin-bottom: 20px;
+}
+
+@keyframes up-down{
+  0% {
+    transform:  translate(1px,20px)  ;
+  }
+  24% {
+    transform:  translate(1px,30px)  ;
+  }
+  50% {
+    transform:  translate(1px,12px)  ;
+  }
+  74% {
+    transform:  translate(1px,22px)  ;
+  }
+  100% {
+    transform:  translate(1px,22px)  ;
+  }
+}
+
+@-moz-keyframes up-down{
+  0% {
+    -moz-transform:  translate(1px,20px)  ;
+  }
+  24% {
+    -moz-transform:  translate(1px,30px)  ;
+  }
+  50% {
+    -moz-transform:  translate(1px,12px)  ;
+  }
+  74% {
+    -moz-transform:  translate(1px,22px)  ;
+  }
+  100% {
+    -moz-transform:  translate(1px,22px)  ;
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    -webkit-transform:  translate(1px,20px)  ;
+  }
+  24% {
+    -webkit-transform:  translate(1px,30px)  ;
+  }
+  50% {
+    -webkit-transform:  translate(1px,12px)  ;
+  }
+  74% {
+    -webkit-transform:  translate(1px,22px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(1px,22px)  ;
+  }
+}
+
+@-o-keyframes up-down {
+  0% {
+    -o-transform:  translate(1px,20px)  ;
+  }
+  24% {
+    -o-transform:  translate(1px,30px)  ;
+  }
+  50% {
+    -o-transform:  translate(1px,12px)  ;
+  }
+  74% {
+    -o-transform:  translate(1px,22px)  ;
+  }
+  100% {
+    -o-transform:  translate(1px,22px)  ;
+  }
+}
+
+@-ms-keyframes up-down {
+  0% {
+    -ms-transform:  translate(1px,20px)  ;
+  }
+  24% {
+    -ms-transform:  translate(1px,30px)  ;
+  }
+  50% {
+    -ms-transform:  translate(1px,12px)  ;
+  }
+  74% {
+    -ms-transform:  translate(1px,22px)  ;
+  }
+  100% {
+    -ms-transform:  translate(1px,22px)  ;
+  }
+}
+@media only screen and (max-width: 700px){
+  h2{
+    width: 100%;
+
+  }
+  .tech1 {
+    width: 100%!important;
+  }
+  .tech2{
+    width: 100%!important;
+  }
+  .tech22{
+    order: 1!important;
+  }
+  .navbar{
+    background-color: #f1f1f1!important;
+  }
+  .navbar-nav a {
+    color: #000!important;
+  }
+  h1{
+    font-size: 21px;
+  }
+  .navbar a img{
+    width: 50%;
+  }
+  .ramaera-indus{
+    width: 100%!important;
+  }
+  .cover-content{
+    height: 80vh;
+  }
+  .cover-img img {
+    height: 57vh;
+    width: 100%;
+}
+}
